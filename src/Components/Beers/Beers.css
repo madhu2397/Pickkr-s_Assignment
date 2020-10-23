@@ -1,0 +1,47 @@
+
+.cardStyle {
+    width: 70%;
+}
+.iconStyle{
+    float: right;
+    cursor: pointer;
+    color: violet
+}
+.card {
+    padding-left: 80px;
+    padding-right: 100px;
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+
+@media screen and (max-width:380px){
+    .card{
+        padding-left: 10px;
+        padding-right: 10px;
+        display: grid;
+        grid-template-columns: auto;
+    }
+}
+.cardStyle {
+    width: 50%;
+}
+.iconStyle{
+    float: right;
+    cursor: pointer;
+    color: #092d4e;
+}
+.card {
+    padding-left: 50px;
+    padding-right: 50px;
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+
+@media screen and (max-width:380px){
+    .card{
+        padding-left: 10px;
+        padding-right: 10px;
+        display: grid;
+        grid-template-columns: auto;
+    }
+}
